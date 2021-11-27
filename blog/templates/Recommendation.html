@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Creative form in our design">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Recommendation</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'css/Recommendation.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.30.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Oswald:200,300,400,500,600,700|Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Recommendation">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-3ee1"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-hover-grey-90 u-text-white" href="{% url 'user:main' %}" style="padding: 10px 0px;">Main</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-hover-grey-90 u-text-white" href="{% url 'user:detail' %}" style="padding: 10px 0px;">More in crypto</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-hover-grey-90 u-text-white" href="{% url 'user:recommend' %}" style="padding: 10px 0px;">Recommendation</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-hover-grey-90 u-text-white" href="{% url 'user:about' %}" style="padding: 10px 0px;">About</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'user:main' %}" style="padding: 10px 0px;">Main</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'user:detail' %}" style="padding: 10px 0px;">More in crypto</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'user:recommend' %}" style="padding: 10px 0px;">Recommendation</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'user:about' %}" style="padding: 10px 0px;">About</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-custom-color-1 u-section-1" id="sec-28cb">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-align-center u-custom-font u-font-playfair-display u-text u-text-body-alt-color u-text-1"> Cryptocurren​cy<br>&nbsp;Sentiment Data<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Solution
+        </h1>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-a93a">
+      <div class="u-clearfix u-sheet u-sheet-1"></div>
+    </section>
+    <section class="u-clearfix u-section-3" id="sec-19c3">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-style u-custom-color-1 u-layout-cell u-size-23 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-custom-font u-font-oswald u-text u-text-white u-text-1">Recommend<br>Cryptocurrency
+                  </h2>
+                  <p class="u-large-text u-text u-text-body-alt-color u-text-variant u-text-2">투자 성향에 맞춰서<br>선택해주시면 이를 반영하여 암호화폐를&nbsp;<br>추천해드립니다&nbsp;
+                  </p>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-size-37 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <h4 class="u-text u-text-default u-text-3">please choose!</h4>
+                  <div class="u-form u-form-1">
+                    <form action="result" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form">{% csrf_token %}
+                      <div class="u-form-group u-form-select u-form-group-1">
+                        <label for="select-8a4e" class="u-custom-font u-font-arial u-label u-label-1">코인의 시세 변동</label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-8a4e" name="select" class="u-border-3 u-border-grey-70 u-input u-input-rectangle u-radius-10">
+                            <option value="1">매우크다</option>
+                            <option value="2">크다</option>
+                            <option value="3">보통이다</option>
+                            <option value="4">작다</option>
+                            <option value="5">매우작다</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-select u-form-group-2">
+                        <label for="select-9d01" class="u-custom-font u-font-arial u-label u-label-2">가격지수 변동</label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-9d01" name="select" class="u-border-3 u-border-grey-70 u-input u-input-rectangle u-radius-10">
+                            <option value="1">매우크다</option>
+                            <option value="2">크다</option>
+                            <option value="3">보통이다</option>
+                            <option value="4">작다</option>
+                            <option value="5">매우작다</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-select u-form-group-3">
+                        <label for="select-f94e" class="u-custom-font u-font-arial u-label u-label-3">투자 기간</label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-f94e" name="select" class="u-border-3 u-border-grey-70 u-input u-input-rectangle u-radius-10">
+                            <option value="7">7일</option>
+                            <option value="30">30일</option>
+                            <option value="90">90일</option>
+                            <option value="180">180일</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-select u-form-group-4">
+                        <label for="select-f640" class="u-custom-font u-font-arial u-label u-label-4">통계 기간</label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-f640" name="select" class="u-border-3 u-border-grey-70 u-input u-input-rectangle u-radius-10">
+                            <option value="7">7일</option>
+                            <option value="30">30일</option>
+                            <option value="180">180일</option>
+                            <option value="360">1년</option>
+                            <option value="720">2년</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-align-center u-form-group u-form-submit">
+                        <button onclick="location.href='result'" type="submit" value="submit" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-btn-submit u-button-style u-custom-font u-font-lato u-none u-radius-30 u-text-hover-grey-50 u-btn-1 ">submit</button >
+                      </div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="sec-e32b">
+      <div class="u-clearfix u-sheet u-sheet-1"></div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-408c"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">2조 떡상하조<br>DS 김승연 천준&nbsp;<br>DE 김태완 박현주 이강혁 이학준
+        </p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
